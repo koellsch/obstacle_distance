@@ -139,6 +139,8 @@ ObstacleDistance::ObstacleDistance()
 
     std::string robot_description = "/robot_description";
     std::string distance_service = "/calculate_distance";
+    // std::string robot_description;
+    // std::vector<std::string> distance_service;
     // getParam(ros::this_node::getName() + "/obstacle_distance/robot_description", robot_description);
     // getParam(ros::this_node::getName() + "/obstacle_distance/services", distance_service);
     // if (robot_description == "" || distance_service[0] == "") error = true;
